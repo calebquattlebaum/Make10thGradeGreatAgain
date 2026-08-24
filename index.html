@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bryce Debord | Make 10th Grade Great Again</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,Helvetica,sans-serif;color:#101828;background:#f7f9fc}
+nav{position:sticky;top:0;z-index:10;background:#fff;border-bottom:1px solid #ddd;display:flex;justify-content:space-between;align-items:center;padding:18px 7%}
+.logo{font-weight:900;font-size:20px;letter-spacing:-1px}.logo span{color:#174ea6}
+nav a{color:#182230;text-decoration:none;margin-left:25px;font-weight:700;font-size:14px}
+.hero{min-height:78vh;display:flex;align-items:center;padding:70px 7%;background:linear-gradient(135deg,#0d3b82 0%,#174ea6 55%,#f5f7fa 55%)}
+.hero-content{max-width:700px;color:#fff}
+.kicker{font-size:14px;font-weight:900;letter-spacing:2px;text-transform:uppercase;margin-bottom:18px}
+h1{font-size:clamp(52px,9vw,100px);line-height:.88;letter-spacing:-6px;margin-bottom:28px}
+.hero p{font-size:22px;line-height:1.45;max-width:620px}
+.cta{display:inline-block;margin-top:30px;background:#fff;color:#123d82;padding:16px 25px;border-radius:6px;text-decoration:none;font-weight:900}
+section{padding:85px 7%;max-width:1200px;margin:auto}
+.section-label{color:#174ea6;font-size:13px;font-weight:900;letter-spacing:2px;text-transform:uppercase;margin-bottom:10px}
+h2{font-size:48px;letter-spacing:-2px;margin-bottom:35px}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center}
+.card{background:#fff;border:1px solid #e1e5eb;border-radius:14px;padding:30px;box-shadow:0 8px 25px rgba(0,0,0,.05)}
+.card p{font-size:18px;line-height:1.7}
+.platform{background:#0b1730;color:#fff;max-width:none}
+.platform-inner{max-width:1200px;margin:auto}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.platform .card{color:#101828}
+.number{font-size:50px;font-weight:900;color:#174ea6}
+.card h3{font-size:22px;margin:12px 0}
+.quote{background:#174ea6;color:#fff;max-width:none;text-align:center}
+.quote blockquote{max-width:850px;margin:auto;font-size:clamp(28px,5vw,52px);font-weight:900;line-height:1.1}
+.vote{text-align:center}
+.vote h2{margin-bottom:15px}
+.vote p{font-size:20px;line-height:1.5}
+footer{background:#071022;color:#fff;text-align:center;padding:35px 7%;font-size:13px}
+@media(max-width:750px){
+ #gallery > div > div:nth-child(2){grid-template-columns:1fr !important;}
+ nav{padding:15px 5%} nav div:last-child{display:none}
+ .hero{padding:70px 7%;background:#174ea6}
+ h1{letter-spacing:-3px}
+ .about,.grid{grid-template-columns:1fr}
+ section{padding:65px 7%}
+ h2{font-size:38px}
+}
+</style>
+</head>
+<body>
+<nav>
+  <div class="logo">BRYCE <span>DEBORD</span></div>
+  <div>
+    <a href="#about">ABOUT</a>
+    <a href="#platform">PLATFORM</a>
+    <a href="#vote">VOTE</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="hero-content">
+    <div class="kicker">The campaign for 10th grade</div>
+    <h1>MAKE 10TH GRADE GREAT AGAIN.</h1>
+    <p>Bryce Debord is running for 10th grade class president. The deadline may have stopped one campaign — it won't stop the next one.</p>
+    <a class="cta" href="#vote">JOIN THE MOVEMENT →</a>
+  </div>
+</header>
+
+<section id="about">
+  <div class="about">
+    <div>
+      <div class="section-label">The candidate</div>
+      <h2>One missed deadline. One bigger campaign.</h2>
+      <p style="font-size:19px;line-height:1.7">Bryce Debord couldn't run for 9th grade class president because he missed the deadline. Instead of giving up, he's taking the long view: 10th grade.</p>
+    </div>
+    <div class="card">
+      <p><strong>THE PLAN:</strong><br><br>
+      Keep the campaign alive. Build the movement. Show up when it matters. And when 10th grade arrives, be ready.</p>
+    </div>
+  </div>
+</section>
+
+<section class="platform" id="platform">
+  <div class="platform-inner">
+    <div class="section-label" style="color:#9fc2ff">The platform</div>
+    <h2>What Bryce stands for.</h2>
+    <div class="grid">
+      <div class="card"><div class="number">01</div><h3>More School Spirit</h3><p>Bring more energy, pride, and excitement to the grade.</p></div>
+      <div class="card"><div class="number">02</div><h3>A Stronger Voice</h3><p>Make sure students actually have a say in what happens.</p></div>
+      <div class="card"><div class="number">03</div><h3>Never Give Up</h3><p>A missed deadline isn't the end of the story. It's the beginning of the campaign.</p></div>
+    </div>
+  </div>
+</section>
+
+
+<section id="gallery" style="background:#eef3fb;max-width:none;">
+  <div style="max-width:1200px;margin:auto;">
+    <div class="section-label">Campaign HQ</div>
+    <h2>The campaign poster.</h2>
+    <div style="display:grid;grid-template-columns:minmax(0,700px) 1fr;gap:45px;align-items:center;">
+      <img src="campaign-poster.png" alt="Bryce Debord campaign poster reading Make 10th Grade Great Again"
+           style="width:100%;border-radius:14px;box-shadow:0 15px 40px rgba(0,0,0,.15);">
+      <div class="card">
+        <h3>THE MOVEMENT IS GROWING.</h3>
+        <p>One poster. One message. One goal: make 10th grade great again.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="quote">
+  <blockquote>“The deadline stopped me from running in 9th grade. It won't stop me from running in 10th.”</blockquote>
+</section>
+
+<section class="vote" id="vote">
+  <div class="section-label">The movement</div>
+  <h2>10th grade starts here.</h2>
+  <p>Remember the name. Remember the campaign.<br><strong>BRYCE DEBORD FOR 10TH GRADE CLASS PRESIDENT.</strong></p>
+  <a class="cta" style="background:#174ea6;color:#fff" href="#about">LEARN MORE ↑</a>
+</section>
+
+<footer>
+  BRYCE DEBORD FOR 10TH GRADE • MAKE 10TH GRADE GREAT AGAIN
+</footer>
+</body>
+</html>
